@@ -1,0 +1,161 @@
+/* GENERAL */
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #777777;
+    background: url(../images/papyrus.png) repeat;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+    border-right: 1px solid #cccccc;
+    padding-right: 20px;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+header {
+    background: #fff;
+    padding: 15px;
+    padding-bottom: 0;
+    color: #fff;
+    border-bottom: 2px solid #cccccc;
+}
+
+header h1 {
+    display: inline-block;
+    width: 220px;
+    background: #4aaaa5;
+    padding: 20px;
+    margin: 0
+}
+
+main {
+    width: 960px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+}
+
+main p {
+    margin-top: 30px;
+}
+
+main p:first-of-type {
+    margin-top: 0;
+}
+
+footer {
+    border-top: 10px solid #4aaaa5;
+    color: #fff;
+    background: #666;
+    padding: 15px;
+    text-align: center;
+    font-size: 12px;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 20px;
+}
+
+
+.prof-image {
+    width: 250px;
+    float: left;
+    margin-right: 25px;
+}
+
+/* CONTACT PAGE */
+
+input[type=text], 
+input[type=email], 
+textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+
+input[type=submit] {
+    width: 80px;
+    background: #4aaaa5;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;;
+  }
+
+  /* PORTFOLIO PAGE */
+
+  .container {
+    position: relative;
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+
+  .text-block {
+    position: absolute;
+    bottom: 10px;
+    /* right: 20px; */
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .clearfix {
+    content: "";
+    display: table;
+    clear: both;
+  }
