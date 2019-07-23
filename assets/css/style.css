@@ -1,4 +1,4 @@
-/* GENERAL */
+/* ABOUT/INDEX PAGE */
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -23,9 +23,10 @@ nav ul {
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 25px;
+    width: 60px;
     border-right: 1px solid #cccccc;
-    padding-right: 20px;
+    padding: 0 20px;
+    text-align: center;
 }
 
 nav ul li:last-child {
@@ -83,7 +84,14 @@ a {
 }
 
 a:hover {
-    color: #4aaaa5;
+    color: #fff;
+    
+}
+
+li:hover {
+    background-color: #cccccc;
+    color: #fff;
+    border-right: none;
 }
 
 h1, h2 {
@@ -95,7 +103,6 @@ h2 {
     border-bottom: 2px solid #cccccc;
     padding-bottom: 20px;
 }
-
 
 .prof-image {
     width: 250px;
@@ -117,8 +124,6 @@ textarea {
     margin-bottom: 16px;
 }
 
-
-
 input[type=submit] {
     width: 80px;
     background: #4aaaa5;
@@ -128,7 +133,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #4aaaa5;;
+    background-color: #cccccc;;
   }
 
   /* PORTFOLIO PAGE */
