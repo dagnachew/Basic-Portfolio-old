@@ -58,7 +58,7 @@ header h1 {
 main {
     width: 960px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
     background: #fff;
     padding: 25px;
     box-sizing: border-box;
@@ -100,7 +100,6 @@ li:hover {
 
 .selected {
     color: #2E7B8C;
-    font-weight: bold;
 }
 
 h1, h2 {
@@ -149,11 +148,15 @@ h2 {
 
 /* CONTACT PAGE */
 
-.form-group {
+.contact-form {
     padding-right: 25px;
-    margin: 0 auto;
     width: 100%;
     box-sizing: border-box;
+    display: table;
+}
+
+.form-group {
+    display: table-row;
 }
 
 input[type=text], 
@@ -178,6 +181,14 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #9FBFBF;
     color: #557073;
+  }
+
+.contact {
+    width:960px;
+    margin: 20px auto 0;
+    padding: 25px;
+    background: #fff;
+    box-sizing: border-box;
   }
 
  
